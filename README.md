@@ -4,8 +4,7 @@ Converts an array of JSON objects into CSV format
 
 > ## Example
 
-
-        // JSON Array. 
+### JSON Array. 
 ```json
 [{
         "Avatar": "https://robohash.org/temporecumquenecessitatibus.png?size=50x50&set=set1",
@@ -26,10 +25,12 @@ Converts an array of JSON objects into CSV format
         "Avatar": "https://robohash.org/molestiaeipsamfacilis.bmp?size=50x50&set=set1",
         "gender": "Genderfluid"
 }]
-``
+```
+### CSV
+
 ```csv
 
-        // CSV
+
 
         Avatar,gender
         https://robohash.org/temporecumquenecessitatibus.png?size=50x50&set=set1,Female   
