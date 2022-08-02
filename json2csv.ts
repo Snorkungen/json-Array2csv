@@ -1,4 +1,4 @@
-function json2csv(json: JSON[]) {
+export default function json2csv(json: JSON[]) {
     const headerFields = new Set();
     let rows: string = "";
     json.map((obj: any) => {
