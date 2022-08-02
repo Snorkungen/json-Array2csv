@@ -2,6 +2,6 @@
 const json = require("./test.json");
 const {
     json2csv
-} = require("../build/json2csv.js")
+} = require("../lib");
 
 console.dir(json2csv(json))
